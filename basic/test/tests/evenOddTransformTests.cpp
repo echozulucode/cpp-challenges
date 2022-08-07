@@ -50,8 +50,8 @@ namespace
     std::vector<int> input { 0, 0, 0 };
     std::vector<int> result;
     
-    result = evenOddTransform(input, 1);
-    ASSERT_THAT(result, ElementsAre(-20, -20, -21));
+    result = evenOddTransform(input, 10);
+    ASSERT_THAT(result, ElementsAre(-20, -20, -20));
   }
 
   TEST_F(EvenOddTransformTests, BasicCase3)
