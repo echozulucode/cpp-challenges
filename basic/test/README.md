@@ -11,5 +11,5 @@ cmake --build .
 
 ## Run Tests - Manual
 ```
-ctest
+ctest -VV
 ```
