@@ -21,11 +21,14 @@ add_executable(unittest
                main.cpp
                tests/evenOddTransformTests.cpp
                tests/quadraticEquationTests.cpp
+               tests/paperRockScissorsTests.cpp
+               tests/rubiksCubeTests.cpp
                tests/simpleTest.cpp)
 
 target_include_directories(unittest
   PUBLIC .
   PRIVATE include
+  PRIVATE ../include
 )
 
 set_target_properties(unittest
